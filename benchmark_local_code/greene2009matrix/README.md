@@ -1,0 +1,20 @@
+# A matrix factorization approach for integrating multiple data views
+
+- `citationKey`: `greene2009matrix`
+- `category`: `CA Matrix-based methods`
+- `venue`: LNCS
+- `year`: 2009
+- `paper`: https://doi.org/10.1007/978-3-642-04180-8_45
+
+## Packaging Notes
+
+This standardized release keeps code files only.
+Datasets, `.mat` files, benchmark outputs, figures, logs, and other experiment artifacts are intentionally excluded.
+
+## Source Folder
+
+- Original local folder: `Experiment\(6) A Matrix Factorization Approach for Integrating Multiple Data Views`
+
+## Layout
+
+- `src/`: code-only extraction from the original experiment folder
