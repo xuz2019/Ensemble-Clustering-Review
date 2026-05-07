@@ -10,6 +10,10 @@
 <img src="https://img.shields.io/static/v1?label=Link%20coverage&message=605%2F605&color=F59E0B&style=for-the-badge" alt="Link coverage badge" />
 <img src="https://img.shields.io/static/v1?label=Time%20span&message=2001-2025&color=D9485F&style=for-the-badge" alt="Time span badge" />
 
+<p><a href="https://xuz2019.github.io/ensemble-clustering-survey-interactive-explorer/"><img src="https://img.shields.io/static/v1?label=Open&message=Interactive%20Explorer&color=111827&style=for-the-badge" alt="Open Interactive Explorer" /></a></p>
+<p><strong>Live web explorer:</strong> <a href="https://xuz2019.github.io/ensemble-clustering-survey-interactive-explorer/">https://xuz2019.github.io/ensemble-clustering-survey-interactive-explorer/</a></p>
+<p>The interactive explorer contains method-level information, dataset summaries, and a range of benchmark and experimental analyses in a browsable web interface.</p>
+
 </div>
 
 This repository provides a companion resource on the development of ensemble clustering over the past 25 years.
@@ -31,6 +35,7 @@ For a more comprehensive discussion, please refer to the following survey:
 
 | Section | What you will find |
 | --- | --- |
+| [Interactive Explorer](https://xuz2019.github.io/ensemble-clustering-survey-interactive-explorer/) | Live web interface for experimental analysis, dataset browsing, and method inspection |
 | [Figures](#figures) | Visual overview of historical trend and methodology taxonomy |
 | [Papers with Code](#papers-with-code) | Code-supported benchmark papers with a reserved `Code` column |
 | [Complete Paper List](#complete-paper-list) | Full bibliography organized by the same seven categories |
