@@ -5,7 +5,8 @@
 <p><strong>An interactive companion resource for tracing the development of ensemble clustering across methods, benchmarks, and linked references.</strong></p>
 
 <img src="https://img.shields.io/static/v1?label=Method%20categories&message=7&color=0A7EA4&style=for-the-badge" alt="Method categories badge" />
-<img src="https://img.shields.io/static/v1?label=Code-supported%20papers&message=61&color=0E9F6E&style=for-the-badge" alt="Code-supported papers badge" />
+<img src="https://img.shields.io/static/v1?label=Benchmark%20papers&message=61&color=0E9F6E&style=for-the-badge" alt="Benchmark papers badge" />
+<img src="https://img.shields.io/static/v1?label=Public%20code%20links&message=30&color=059669&style=for-the-badge" alt="Public code links badge" />
 <img src="https://img.shields.io/static/v1?label=Complete%20paper%20list&message=605&color=7C3AED&style=for-the-badge" alt="Complete paper list badge" />
 <img src="https://img.shields.io/static/v1?label=Link%20coverage&message=605%2F605&color=F59E0B&style=for-the-badge" alt="Link coverage badge" />
 <img src="https://img.shields.io/static/v1?label=Time%20span&message=2001-2025&color=D9485F&style=for-the-badge" alt="Time span badge" />
@@ -26,9 +27,9 @@ For a more comprehensive discussion, please refer to the following survey:
 
 <table>
 <tr>
-<td width="33%" valign="top"><strong>Curated benchmark subset</strong><br/>A code-supported subset of <strong>61</strong> representative papers aligned with the benchmark section of the survey.</td>
+<td width="33%" valign="top"><strong>Curated benchmark subset</strong><br/>A benchmark-oriented subset of <strong>61</strong> representative papers aligned with the experimental section of the survey.</td>
+<td width="33%" valign="top"><strong>Verified code links</strong><br/>Currently <strong>30</strong> papers in the benchmark subset include a public code entry gathered from the curated code-link spreadsheet.</td>
 <td width="33%" valign="top"><strong>Expanded bibliography</strong><br/>A linked bibliography of <strong>605</strong> papers grouped under the same seven-category taxonomy.</td>
-<td width="33%" valign="top"><strong>Coverage window</strong><br/>The current collection spans publications from <strong>2001</strong> to <strong>2025</strong>, covering both classical and recent work.</td>
 </tr>
 </table>
 
@@ -39,7 +40,7 @@ For a more comprehensive discussion, please refer to the following survey:
 | --- | --- |
 | [Interactive Explorer](https://xuz2019.github.io/ensemble-clustering-survey-interactive-explorer/) | Live web interface for experimental analysis, dataset browsing, and method inspection |
 | [Figures](#figures) | Visual overview of historical trend and methodology taxonomy |
-| [Papers with Code](#papers-with-code) | Code-supported benchmark papers with a reserved `Code` column |
+| [Papers with Code](#papers-with-code) | Benchmark papers with verified public code links where available |
 | [Complete Paper List](#complete-paper-list) | Full bibliography organized by the same seven categories |
 
 <a id="figures"></a>
@@ -61,7 +62,7 @@ For a more comprehensive discussion, please refer to the following survey:
 <a id="papers-with-code"></a>
 ## 💻 Papers with Code
 
-> The table below contains the code-supported benchmark subset currently emphasized in the survey. The `Code` field is intentionally reserved for repository links and is temporarily marked as `xxx`.
+> The table below contains the benchmark subset emphasized in the survey. Public code links are filled in when a verified repository or release page is available in the curated spreadsheet; `xxx` indicates that no verified public code link is currently listed.
 
 | Category | Count |
 | --- | ---: |
@@ -81,51 +82,51 @@ For a more comprehensive discussion, please refer to the following survey:
 | 🎲 Probabilistic methods | A mixture model for clustering ensembles | Alexander Topchy et al | ICDM | 2004 | [Paper](https://doi.org/10.1137/1.9781611972740.35) | xxx |
 | 🎲 Probabilistic methods | Clustering ensembles: Models of consensus and weak partitions | Alexander Topchy et al | IEEE TPAMI | 2005 | [Paper](https://doi.org/10.1109/tpami.2005.237) | xxx |
 | 🎲 Probabilistic methods | Cumulative voting consensus method for partitions with variable number of clusters | Hanan G Ayad and Mohamed S Kamel | IEEE TPAMI | 2007 | [Paper](https://doi.org/10.1109/tpami.2007.1138) | xxx |
-| 🎲 Probabilistic methods | Ensemble clustering using factor graph | Dong Huang et al | Pattern Recognition | 2016 | [Paper](https://doi.org/10.1016/j.patcog.2015.08.015) | xxx |
-| 🎲 Probabilistic methods | Fair clustering ensemble with equal cluster capacity | Peng Zhou et al | IEEE TPAMI | 2024 | [Paper](https://doi.org/10.1109/tpami.2024.3507857) | xxx |
-| 🎲 Probabilistic methods | Generalization Performance of Ensemble Clustering: From Theory to Algorithm | Xu Zhang et al | ICML | 2025 | [Paper](https://dblp.org/rec/conf/icml/ZhangQL0HJ25) | xxx |
+| 🎲 Probabilistic methods | Ensemble clustering using factor graph | Dong Huang et al | Pattern Recognition | 2016 | [Paper](https://doi.org/10.1016/j.patcog.2015.08.015) | [Code](https://github.com/huangdonghere/ECFG) |
+| 🎲 Probabilistic methods | Fair clustering ensemble with equal cluster capacity | Peng Zhou et al | IEEE TPAMI | 2024 | [Paper](https://doi.org/10.1109/tpami.2024.3507857) | [Code](http://doctor-nobody.github.io/codes/FCE.7z) |
+| 🎲 Probabilistic methods | Generalization Performance of Ensemble Clustering: From Theory to Algorithm | Xu Zhang et al | ICML | 2025 | [Paper](https://dblp.org/rec/conf/icml/ZhangQL0HJ25) | [Code](https://github.com/xuz2019/GPEC) |
 | 🎲 Probabilistic methods | K-means-based consensus clustering: A unified view | Junjie Wu et al | IEEE TKDE | 2014 | [Paper](https://doi.org/10.1109/tkde.2014.2316512) | xxx |
-| 🕸 Graph-based methods | Clustering ensemble via diffusion on adaptive multiplex | Peng Zhou et al | IEEE TKDE | 2023 | [Paper](https://doi.org/10.1109/tkde.2023.3311409) | xxx |
-| 🕸 Graph-based methods | Clustering ensemble via structured hypergraph learning | Peng Zhou et al | Information Fusion | 2022 | [Paper](https://doi.org/10.1016/j.inffus.2021.09.003) | xxx |
-| 🕸 Graph-based methods | Combining multiple clusterings via crowd agreement estimation and multi-granularity link analysis | Dong Huang et al | Neurocomputing | 2015 | [Paper](https://doi.org/10.1016/j.neucom.2014.05.094) | xxx |
-| 🕸 Graph-based methods | Enhanced ensemble clustering via fast propagation of cluster-wise similarities | Dong Huang et al | IEEE TSMCS | 2018 | [Paper](https://doi.org/10.1109/tsmc.2018.2876202) | xxx |
-| 🕸 Graph-based methods | Robust ensemble clustering using probability trajectories | Dong Huang et al | IEEE TKDE | 2015 | [Paper](https://doi.org/10.1109/tkde.2015.2503753) | xxx |
-| 🕸 Graph-based methods | Self-paced adaptive bipartite graph learning for consensus clustering | Peng Zhou et al | ACM TKDD | 2023 | [Paper](https://doi.org/10.1145/3564701) | xxx |
+| 🕸 Graph-based methods | Clustering ensemble via diffusion on adaptive multiplex | Peng Zhou et al | IEEE TKDE | 2023 | [Paper](https://doi.org/10.1109/tkde.2023.3311409) | [Code](http://doctor-nobody.github.io/codes/CEAM.zip) |
+| 🕸 Graph-based methods | Clustering ensemble via structured hypergraph learning | Peng Zhou et al | Information Fusion | 2022 | [Paper](https://doi.org/10.1016/j.inffus.2021.09.003) | [Code](http://doctor-nobody.github.io/codes/code_CESHL.rar) |
+| 🕸 Graph-based methods | Combining multiple clusterings via crowd agreement estimation and multi-granularity link analysis | Dong Huang et al | Neurocomputing | 2015 | [Paper](https://doi.org/10.1016/j.neucom.2014.05.094) | [Code](https://github.com/huangdonghere/WEAC_GPMGLA) |
+| 🕸 Graph-based methods | Enhanced ensemble clustering via fast propagation of cluster-wise similarities | Dong Huang et al | IEEE TSMCS | 2018 | [Paper](https://doi.org/10.1109/tsmc.2018.2876202) | [Code](https://github.com/huangdonghere/ECPCS) |
+| 🕸 Graph-based methods | Robust ensemble clustering using probability trajectories | Dong Huang et al | IEEE TKDE | 2015 | [Paper](https://doi.org/10.1109/tkde.2015.2503753) | [Code](https://github.com/huangdonghere/PTA_PTGP) |
+| 🕸 Graph-based methods | Self-paced adaptive bipartite graph learning for consensus clustering | Peng Zhou et al | ACM TKDD | 2023 | [Paper](https://doi.org/10.1145/3564701) | [Code](http://doctor-nobody.github.io/codes/code_SCCABG.zip) |
 | 🕸 Graph-based methods | Solving cluster ensemble problems by bipartite graph partitioning | Xiaoli Zhang Fern and Carla E Brodley | ICML | 2004 | [Paper](https://doi.org/10.1145/1015330.1015414) | xxx |
-| 🕸 Graph-based methods | Tri-level robust clustering ensemble with multiple graph learning | Peng Zhou et al | AAAI | 2021 | [Paper](https://doi.org/10.1609/aaai.v35i12.17327) | xxx |
-| 🕸 Graph-based methods | Dynamic anchor-based ensemble clustering via hypergraph reconstruction | Jiaxuan Xu et al | IJCAI | 2025 | [Paper](https://doi.org/10.24963/ijcai.2025/750) | xxx |
+| 🕸 Graph-based methods | Tri-level robust clustering ensemble with multiple graph learning | Peng Zhou et al | AAAI | 2021 | [Paper](https://doi.org/10.1609/aaai.v35i12.17327) | [Code](http://doctor-nobody.github.io/codes/TRCE_code.zip) |
+| 🕸 Graph-based methods | Dynamic anchor-based ensemble clustering via hypergraph reconstruction | Jiaxuan Xu et al | IJCAI | 2025 | [Paper](https://doi.org/10.24963/ijcai.2025/750) | [Code](https://github.com/scu-kdde/YACHT) |
 | 🔗 CA Matrix-based methods | A multiple k-means clustering ensemble algorithm to find nonlinearly separable clusters | Liang Bai et al | Information Fusion | 2020 | [Paper](https://doi.org/10.1016/j.inffus.2020.03.009) | xxx |
-| 🔗 CA Matrix-based methods | Enhancing ensemble clustering with adaptive high-order topological weights | Jiaxuan Xu et al | AAAI | 2024 | [Paper](https://doi.org/10.1609/aaai.v38i14.29552) | xxx |
-| 🔗 CA Matrix-based methods | Clustering ensemble meets low-rank tensor approximation | Yuheng Jia et al | AAAI | 2021 | [Paper](https://doi.org/10.1609/aaai.v35i9.16972) | xxx |
-| 🔗 CA Matrix-based methods | Combining multiple clusterings using evidence accumulation | Ana LN Fred and Anil K Jain | IEEE TPAMI | 2005 | [Paper](https://doi.org/10.1109/tpami.2005.113) | xxx |
-| 🔗 CA Matrix-based methods | Ensemble clustering via co-association matrix self-enhancement | Yuheng Jia et al | IEEE TNNLS | 2023 | [Paper](https://doi.org/10.1109/tnnls.2023.3249207) | xxx |
-| 🔗 CA Matrix-based methods | Ensemble clustering based on dense representation | Jie Zhou et al | Neurocomputing | 2019 | [Paper](https://doi.org/10.1016/j.neucom.2019.04.078) | xxx |
-| 🔗 CA Matrix-based methods | On regularizing multiple clusterings for ensemble clustering by graph tensor learning | Man-Sheng Chen et al | ACM MM | 2023 | [Paper](https://doi.org/10.1145/3581783.3612313) | xxx |
-| 🔗 CA Matrix-based methods | Got: a growing tree model for clustering ensemble | Feijiang Li et al | AAAI | 2021 | [Paper](https://doi.org/10.1609/aaai.v35i9.17015) | xxx |
+| 🔗 CA Matrix-based methods | Enhancing ensemble clustering with adaptive high-order topological weights | Jiaxuan Xu et al | AAAI | 2024 | [Paper](https://doi.org/10.1609/aaai.v38i14.29552) | [Code](https://github.com/ltyong/awec) |
+| 🔗 CA Matrix-based methods | Clustering ensemble meets low-rank tensor approximation | Yuheng Jia et al | AAAI | 2021 | [Paper](https://doi.org/10.1609/aaai.v35i9.16972) | [Code](https://github.com/jyh-learning/TensorClusteringEnsemble) |
+| 🔗 CA Matrix-based methods | Combining multiple clusterings using evidence accumulation | Ana LN Fred and Anil K Jain | IEEE TPAMI | 2005 | [Paper](https://doi.org/10.1109/tpami.2005.113) | [Code](https://github.com/newbee-ML/clustering-ensemble--EAC) |
+| 🔗 CA Matrix-based methods | Ensemble clustering via co-association matrix self-enhancement | Yuheng Jia et al | IEEE TNNLS | 2023 | [Paper](https://doi.org/10.1109/tnnls.2023.3249207) | [Code](https://github.com/Siritao/EC-CMS) |
+| 🔗 CA Matrix-based methods | Ensemble clustering based on dense representation | Jie Zhou et al | Neurocomputing | 2019 | [Paper](https://doi.org/10.1016/j.neucom.2019.04.078) | [Code](https://github.com/sudalvxin/Ensemble-Clustering) |
+| 🔗 CA Matrix-based methods | On regularizing multiple clusterings for ensemble clustering by graph tensor learning | Man-Sheng Chen et al | ACM MM | 2023 | [Paper](https://doi.org/10.1145/3581783.3612313) | [Code](https://github.com/ManshengChen/Code-for-GTLEC-master) |
+| 🔗 CA Matrix-based methods | Got: a growing tree model for clustering ensemble | Feijiang Li et al | AAAI | 2021 | [Paper](https://doi.org/10.1609/aaai.v35i9.17015) | [Code](https://github.com/FeijiangLi/Code-GoT-a-growing-tree-model-for-clustering-ensemble-AAAI-21-) |
 | 🔗 CA Matrix-based methods | LCE: a link-based cluster ensemble method for improved gene expression data analysis | Natthakan Iam-On et al | Bioinformatics | 2010 | [Paper](https://doi.org/10.1093/bioinformatics/btq226) | xxx |
-| 🔗 CA Matrix-based methods | Locally weighted ensemble clustering | Dong Huang et al | IEEE TCYB | 2017 | [Paper](https://doi.org/10.1109/tcyb.2017.2702343) | xxx |
+| 🔗 CA Matrix-based methods | Locally weighted ensemble clustering | Dong Huang et al | IEEE TCYB | 2017 | [Paper](https://doi.org/10.1109/tcyb.2017.2702343) | [Code](https://github.com/huangdonghere/LWEA_LWGP) |
 | 🔗 CA Matrix-based methods | Robust spectral ensemble clustering | Zhiqiang Tao et al | ACM CIKM | 2016 | [Paper](https://doi.org/10.1145/2983323.2983745) | xxx |
-| 🔗 CA Matrix-based methods | Similarity and dissimilarity guided co-association matrix construction for ensemble clustering | Xu Zhang et al | IEEE TKDE | 2025 | [Paper](https://doi.org/10.1109/tkde.2025.3608721) | xxx |
-| 🔗 CA Matrix-based methods | Spectral ensemble clustering via weighted k-means: Theoretical and practical evidence | Hongfu Liu et al | IEEE TKDE | 2017 | [Paper](https://doi.org/10.1109/tkde.2017.2650229) | xxx |
-| 🔗 CA Matrix-based methods | Towards Balance Adaptive Weighted Ensemble Clustering | Runxin Zhang et al | IEEE TCSVT | 2025 | [Paper](https://doi.org/10.1109/tcsvt.2025.3531199) | xxx |
+| 🔗 CA Matrix-based methods | Similarity and dissimilarity guided co-association matrix construction for ensemble clustering | Xu Zhang et al | IEEE TKDE | 2025 | [Paper](https://doi.org/10.1109/tkde.2025.3608721) | [Code](https://github.com/xuz2019/SDGCA) |
+| 🔗 CA Matrix-based methods | Spectral ensemble clustering via weighted k-means: Theoretical and practical evidence | Hongfu Liu et al | IEEE TKDE | 2017 | [Paper](https://doi.org/10.1109/tkde.2017.2650229) | [Code](https://github.com/Li-Hongmin/Implementation_of_Spectral_Ensemble_Clustering_via_Weighted_K-Means) |
+| 🔗 CA Matrix-based methods | Towards Balance Adaptive Weighted Ensemble Clustering | Runxin Zhang et al | IEEE TCSVT | 2025 | [Paper](https://doi.org/10.1109/tcsvt.2025.3531199) | [Code](https://github.com/zrx11/Towards-Balance-Adaptive-Weighted-Ensemble-Clustering) |
 | 🔗 CA Matrix-based methods | A clustering ensemble: Two-level-refined co-association matrix with path-based transformation | Caiming Zhong et al | Pattern Recognition | 2015 | [Paper](https://doi.org/10.1016/j.patcog.2015.02.014) | xxx |
 | 🔗 CA Matrix-based methods | A matrix factorization approach for integrating multiple data views | Derek Greene and Padraig Cunningham | LNCS | 2009 | [Paper](https://doi.org/10.1007/978-3-642-04180-8_45) | xxx |
 | 🔗 CA Matrix-based methods | From ensemble clustering to multi-view clustering | Zhiqiang Tao et al | IJCAI | 2017 | [Paper](https://doi.org/10.24963/ijcai.2017/396) | xxx |
-| 🔗 CA Matrix-based methods | Multi-view ensemble clustering via low-rank and sparse decomposition: from matrix to tensor | Xuanqi Zhang et al | ACM TKDD | 2023 | [Paper](https://doi.org/10.1145/3589768) | xxx |
+| 🔗 CA Matrix-based methods | Multi-view ensemble clustering via low-rank and sparse decomposition: from matrix to tensor | Xuanqi Zhang et al | ACM TKDD | 2023 | [Paper](https://doi.org/10.1145/3589768) | [Code](https://github.com/xuan7zhang/Multi-View-Ensemble-Clustering-via-Low-Rank-and-Sparse-Decomposition-from-Matrix-to-Tensor) |
 | 🔗 CA Matrix-based methods | Multi-view document clustering via ensemble method | Syed Fawad Hussain et al | JIIS | 2014 | [Paper](https://doi.org/10.1007/s10844-014-0307-6) | xxx |
 | ⚡ Scalable ensemble methods | A scalable framework for cluster ensembles | Prodip Hore et al | Pattern Recognition | 2009 | [Paper](https://doi.org/10.1016/j.patcog.2008.09.027) | xxx |
 | ⚡ Scalable ensemble methods | A three-way cluster ensemble approach for large-scale data | Hong Yu et al | IJAR | 2019 | [Paper](https://doi.org/10.1016/j.ijar.2019.09.001) | xxx |
 | ⚡ Scalable ensemble methods | Effects of resampling method and adaptation on clustering ensemble efficacy | Behrouz Minaei-Bidgoli et al | Artificial Intelligence Review | 2014 | [Paper](https://doi.org/10.1007/s10462-011-9295-x) | xxx |
-| ⚡ Scalable ensemble methods | Anchor-based fast spectral ensemble clustering | Runxin Zhang et al | Information Fusion | 2025 | [Paper](https://doi.org/10.1016/j.inffus.2024.102587) | xxx |
-| ⚡ Scalable ensemble methods | Fast multi-view clustering via ensembles: Towards scalability, superiority, and simplicity | Dong Huang et al | IEEE TKDE | 2023 | [Paper](https://doi.org/10.1109/tkde.2023.3236698) | xxx |
-| ⚡ Scalable ensemble methods | Ultra-scalable spectral clustering and ensemble clustering | Dong Huang et al | IEEE TKDE | 2019 | [Paper](https://doi.org/10.1109/tkde.2019.2903410) | xxx |
+| ⚡ Scalable ensemble methods | Anchor-based fast spectral ensemble clustering | Runxin Zhang et al | Information Fusion | 2025 | [Paper](https://doi.org/10.1016/j.inffus.2024.102587) | [Code](https://github.com/zrx11/Anchor-Based-Fast-Spectral-Ensemble-Clustering) |
+| ⚡ Scalable ensemble methods | Fast multi-view clustering via ensembles: Towards scalability, superiority, and simplicity | Dong Huang et al | IEEE TKDE | 2023 | [Paper](https://doi.org/10.1109/tkde.2023.3236698) | [Code](https://github.com/huangdonghere/FastMICE) |
+| ⚡ Scalable ensemble methods | Ultra-scalable spectral clustering and ensemble clustering | Dong Huang et al | IEEE TKDE | 2019 | [Paper](https://doi.org/10.1109/tkde.2019.2903410) | [Code](https://github.com/huangdonghere/USPEC_USENC) |
 | ⚖️ Ensemble weighting methods | Bagging-based spectral clustering ensemble selection | Jianhua Jia et al | Pattern Recognition Letters | 2011 | [Paper](https://doi.org/10.1016/j.patrec.2011.04.008) | xxx |
 | ⚖️ Ensemble weighting methods | Hybrid sampling-based clustering ensemble with global and local constitutions | Yun Yang and Jianmin Jiang | IEEE TNNLS | 2015 | [Paper](https://doi.org/10.1109/tnnls.2015.2430821) | xxx |
-| ⚖️ Ensemble weighting methods | Toward multidiversified ensemble clustering of high-dimensional data: From subspaces to metrics and beyond | Dong Huang et al | IEEE TCYB | 2021 | [Paper](https://doi.org/10.1109/tcyb.2021.3049633) | xxx |
+| ⚖️ Ensemble weighting methods | Toward multidiversified ensemble clustering of high-dimensional data: From subspaces to metrics and beyond | Dong Huang et al | IEEE TCYB | 2021 | [Paper](https://doi.org/10.1109/tcyb.2021.3049633) | [Code](https://github.com/huangdonghere/MDEC) |
 | ⚖️ Ensemble weighting methods | Moderate diversity for better cluster ensembles | Stefan T Hadjitodorov et al | Information Fusion | 2006 | [Paper](https://doi.org/10.1016/j.inffus.2005.01.008) | xxx |
-| ⚖️ Ensemble weighting methods | Self-paced clustering ensemble | Peng Zhou et al | IEEE TNNLS | 2020 | [Paper](https://doi.org/10.1109/tnnls.2020.2984814) | xxx |
+| ⚖️ Ensemble weighting methods | Self-paced clustering ensemble | Peng Zhou et al | IEEE TNNLS | 2020 | [Paper](https://doi.org/10.1109/tnnls.2020.2984814) | [Code](http://doctor-nobody.github.io/codes/code_spce.rar) |
 | ⚖️ Ensemble weighting methods | Weighted partition consensus via kernels | Sandro Vega-Pons et al | Pattern Recognition | 2010 | [Paper](https://doi.org/10.1016/j.patcog.2010.03.001) | xxx |
-| ⚖️ Ensemble weighting methods | Weighted-object ensemble clustering | Yazhou Ren et al | ICDM | 2013 | [Paper](https://doi.org/10.1109/icdm.2013.80) | xxx |
+| ⚖️ Ensemble weighting methods | Weighted-object ensemble clustering | Yazhou Ren et al | ICDM | 2013 | [Paper](https://doi.org/10.1109/icdm.2013.80) | [Code](https://github.com/Yazhou-Ren/WOEC) |
 | ⚖️ Ensemble weighting methods | An ensemble framework for clustering protein-protein interaction networks | Sitaram Asur et al | Bioinformatics | 2007 | [Paper](https://doi.org/10.1093/bioinformatics/btm212) | xxx |
 | ✨ Representation enhancement methods | Contrastive Ensemble Clustering | Man-Sheng Chen et al | IEEE TNNLS | 2025 | [Paper](https://doi.org/10.1109/tnnls.2025.3531903) | xxx |
 | ✨ Representation enhancement methods | Deep multi-view spectral clustering via ensemble | Mingyu Zhao et al | PR | 2023 | [Paper](https://doi.org/10.1016/j.patcog.2023.109836) | xxx |
@@ -138,7 +139,7 @@ For a more comprehensive discussion, please refer to the following survey:
 | 🌫 Uncertainty-based methods | Hierarchical cluster ensemble model based on knowledge granulation | Jie Hu et al | KBS | 2016 | [Paper](https://doi.org/10.1016/j.knosys.2015.10.006) | xxx |
 | 🌫 Uncertainty-based methods | Multigranulation information fusion: A Dempster-Shafer evidence theory-based clustering ensemble method | Feijiang Li et al | Information Sciences | 2017 | [Paper](https://doi.org/10.1016/j.ins.2016.10.008) | xxx |
 | 🌫 Uncertainty-based methods | Reliability-based fuzzy clustering ensemble | Ali Bagherinia et al | FSS | 2021 | [Paper](https://doi.org/10.1016/j.fss.2020.03.008) | xxx |
-| 🌫 Uncertainty-based methods | Fuzzy ensemble clustering based on self-coassociation and prototype propagation | Feijiang Li et al | IEEE TFS | 2023 | [Paper](https://doi.org/10.1109/tfuzz.2023.3262256) | xxx |
+| 🌫 Uncertainty-based methods | Fuzzy ensemble clustering based on self-coassociation and prototype propagation | Feijiang Li et al | IEEE TFS | 2023 | [Paper](https://doi.org/10.1109/tfuzz.2023.3262256) | [Code](https://github.com/FeijiangLi/Fuzzy-Ensemble-Clustering-Based-on-Self-Co-Association-and-Prototype-Propagation) |
 
 </details>
 
