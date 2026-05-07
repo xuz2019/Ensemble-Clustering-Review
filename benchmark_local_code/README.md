@@ -1,6 +1,8 @@
 # Benchmark Local Code Folders
 
 This directory contains code-only folders for benchmark methods that do not currently have an external public code repository linked in the survey README.
+These folders are unofficial project-hosted packages prepared for reproducibility and browsing convenience.
+They are not claimed to be official releases from the original authors unless a method folder explicitly states otherwise.
 Each folder is standardized from the local experiment workspace and excludes datasets, `.mat` data files, result outputs, and logs.
 
 ## Layout
