@@ -6,7 +6,7 @@
 
 <img src="https://img.shields.io/static/v1?label=Method%20categories&message=7&color=0A7EA4&style=for-the-badge" alt="Method categories badge" />
 <img src="https://img.shields.io/static/v1?label=Benchmark%20papers&message=61&color=0E9F6E&style=for-the-badge" alt="Benchmark papers badge" />
-<img src="https://img.shields.io/static/v1?label=Public%20code%20links&message=31&color=059669&style=for-the-badge" alt="Public code links badge" />
+<img src="https://img.shields.io/static/v1?label=Public%20code%20links&message=37&color=059669&style=for-the-badge" alt="Public code links badge" />
 <img src="https://img.shields.io/static/v1?label=Complete%20paper%20list&message=605&color=7C3AED&style=for-the-badge" alt="Complete paper list badge" />
 <img src="https://img.shields.io/static/v1?label=Link%20coverage&message=605%2F605&color=F59E0B&style=for-the-badge" alt="Link coverage badge" />
 <img src="https://img.shields.io/static/v1?label=Time%20span&message=2001-2025&color=D9485F&style=for-the-badge" alt="Time span badge" />
@@ -28,7 +28,7 @@ For a more comprehensive discussion, please refer to the following survey:
 <table>
 <tr>
 <td width="33%" valign="top"><strong>Curated benchmark subset</strong><br/>A benchmark-oriented subset of <strong>61</strong> representative papers aligned with the experimental section of the survey.</td>
-<td width="33%" valign="top"><strong>Verified code links</strong><br/>Currently <strong>31</strong> papers in the benchmark subset include a public code entry gathered from the curated code-link spreadsheet.</td>
+<td width="33%" valign="top"><strong>Verified code links</strong><br/>Currently <strong>37</strong> papers in the benchmark subset include a public code entry gathered from the curated code-link spreadsheet.</td>
 <td width="33%" valign="top"><strong>Expanded bibliography</strong><br/>A linked bibliography of <strong>605</strong> papers grouped under the same seven-category taxonomy.</td>
 </tr>
 </table>
@@ -128,12 +128,12 @@ For a more comprehensive discussion, please refer to the following survey:
 | ⚖️ Ensemble weighting methods | Weighted partition consensus via kernels | Sandro Vega-Pons et al | Pattern Recognition | 2010 | [Paper](https://doi.org/10.1016/j.patcog.2010.03.001) | xxx |
 | ⚖️ Ensemble weighting methods | Weighted-object ensemble clustering | Yazhou Ren et al | ICDM | 2013 | [Paper](https://doi.org/10.1109/icdm.2013.80) | [Code](https://github.com/Yazhou-Ren/WOEC) |
 | ⚖️ Ensemble weighting methods | An ensemble framework for clustering protein-protein interaction networks | Sitaram Asur et al | Bioinformatics | 2007 | [Paper](https://doi.org/10.1093/bioinformatics/btm212) | xxx |
-| ✨ Representation enhancement methods | Contrastive Ensemble Clustering | Man-Sheng Chen et al | IEEE TNNLS | 2025 | [Paper](https://doi.org/10.1109/tnnls.2025.3531903) | xxx |
-| ✨ Representation enhancement methods | Deep multi-view spectral clustering via ensemble | Mingyu Zhao et al | PR | 2023 | [Paper](https://doi.org/10.1016/j.patcog.2023.109836) | xxx |
-| ✨ Representation enhancement methods | scBGEDA: deep single-cell clustering analysis via a dual denoising autoencoder with bipartite graph ensemble clustering | Yunhe Wang et al | Bioinformatics | 2023 | [Paper](https://doi.org/10.1093/bioinformatics/btad075) | xxx |
-| ✨ Representation enhancement methods | Jointly learn the base clustering and ensemble for deep image clustering | Chen Liang et al | ICME | 2024 | [Paper](https://doi.org/10.1109/icme57554.2024.10687406) | xxx |
-| ✨ Representation enhancement methods | CCEGAN: Enhancing GAN clustering through contrastive clustering ensemble | Jie Yan et al | Information Sciences | 2025 | [Paper](https://doi.org/10.1016/j.ins.2024.121663) | xxx |
-| ✨ Representation enhancement methods | An Ensemble of Deep Clustering Models With Autoencoders to Mine Travel Patterns From Smart Card Data | Sharon Saronian et al | IEEE TITS | 2024 | [Paper](https://doi.org/10.1109/tits.2024.3475295) | xxx |
+| ✨ Representation enhancement methods | Contrastive Ensemble Clustering | Man-Sheng Chen et al | IEEE TNNLS | 2025 | [Paper](https://doi.org/10.1109/tnnls.2025.3531903) | [Code](https://github.com/ManshengChen/Code-for-CEC-matser) |
+| ✨ Representation enhancement methods | Deep multi-view spectral clustering via ensemble | Mingyu Zhao et al | PR | 2023 | [Paper](https://doi.org/10.1016/j.patcog.2023.109836) | [Code](https://github.com/haha1206/DMCE) |
+| ✨ Representation enhancement methods | scBGEDA: deep single-cell clustering analysis via a dual denoising autoencoder with bipartite graph ensemble clustering | Yunhe Wang et al | Bioinformatics | 2023 | [Paper](https://doi.org/10.1093/bioinformatics/btad075) | [Code](https://github.com/wangyh082/scBGEDA) |
+| ✨ Representation enhancement methods | Jointly learn the base clustering and ensemble for deep image clustering | Chen Liang et al | ICME | 2024 | [Paper](https://doi.org/10.1109/icme57554.2024.10687406) | [Code](https://github.com/liangchen98/JDCE) |
+| ✨ Representation enhancement methods | CCEGAN: Enhancing GAN clustering through contrastive clustering ensemble | Jie Yan et al | Information Sciences | 2025 | [Paper](https://doi.org/10.1016/j.ins.2024.121663) | [Code](https://github.com/Jarvisyan/CCEGAN-pytorch) |
+| ✨ Representation enhancement methods | An Ensemble of Deep Clustering Models With Autoencoders to Mine Travel Patterns From Smart Card Data | Sharon Saronian et al | IEEE TITS | 2024 | [Paper](https://doi.org/10.1109/tits.2024.3475295) | [Code](https://github.com/behnamy2010/Deep-Clustering) |
 | 🌫 Uncertainty-based methods | Consensus-based ensembles of soft clusterings | Kunal Punera and Joydeep Ghosh | Applied Artificial Intelligence | 2008 | [Paper](https://doi.org/10.1080/08839510802170546) | xxx |
 | 🌫 Uncertainty-based methods | Fuzzy ensemble clustering based on random projections for DNA microarray data analysis | Roberto Avogadri and Giorgio Valentini | Artificial Intelligence in Medicine | 2009 | [Paper](https://doi.org/10.1016/j.artmed.2008.07.014) | xxx |
 | 🌫 Uncertainty-based methods | Hierarchical cluster ensemble model based on knowledge granulation | Jie Hu et al | KBS | 2016 | [Paper](https://doi.org/10.1016/j.knosys.2015.10.006) | xxx |
