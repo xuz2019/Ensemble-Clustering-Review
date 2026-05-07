@@ -4,11 +4,11 @@
 
 <p><strong>An interactive companion resource for tracing the development of ensemble clustering across methods, benchmarks, and linked references.</strong></p>
 
-<img src="https://img.shields.io/badge/Method%20categories-7-0A7EA4?style=for-the-badge" alt="Method categories badge" />
-<img src="https://img.shields.io/badge/Code-supported%20papers-61-0E9F6E?style=for-the-badge" alt="Code-supported papers badge" />
-<img src="https://img.shields.io/badge/Complete%20paper%20list-605-7C3AED?style=for-the-badge" alt="Complete paper list badge" />
-<img src="https://img.shields.io/badge/Link%20coverage-605%2F605-F59E0B?style=for-the-badge" alt="Link coverage badge" />
-<img src="https://img.shields.io/badge/Time%20span-2001-2025-D9485F?style=for-the-badge" alt="Time span badge" />
+<img src="https://img.shields.io/static/v1?label=Method%20categories&message=7&color=0A7EA4&style=for-the-badge" alt="Method categories badge" />
+<img src="https://img.shields.io/static/v1?label=Code-supported%20papers&message=61&color=0E9F6E&style=for-the-badge" alt="Code-supported papers badge" />
+<img src="https://img.shields.io/static/v1?label=Complete%20paper%20list&message=605&color=7C3AED&style=for-the-badge" alt="Complete paper list badge" />
+<img src="https://img.shields.io/static/v1?label=Link%20coverage&message=605%2F605&color=F59E0B&style=for-the-badge" alt="Link coverage badge" />
+<img src="https://img.shields.io/static/v1?label=Time%20span&message=2001-2025&color=D9485F&style=for-the-badge" alt="Time span badge" />
 
 </div>
 
