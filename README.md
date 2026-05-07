@@ -1,23 +1,71 @@
+<div align="center">
+
 # Ensemble Clustering Review Explorer
+
+<p><strong>An interactive companion resource for tracing the development of ensemble clustering across methods, benchmarks, and linked references.</strong></p>
+
+<img src="https://img.shields.io/badge/Method%20categories-7-0A7EA4?style=for-the-badge&logo=github&logoColor=white" alt="Method categories badge" />
+<img src="https://img.shields.io/badge/Code-supported%20papers-61-0E9F6E?style=for-the-badge&logo=readthedocs&logoColor=white" alt="Code-supported papers badge" />
+<img src="https://img.shields.io/badge/Complete%20paper%20list-605-7C3AED?style=for-the-badge&logo=googlescholar&logoColor=white" alt="Complete paper list badge" />
+<img src="https://img.shields.io/badge/Link%20coverage-605/605-F59E0B?style=for-the-badge&logo=chainlink&logoColor=white" alt="Link coverage badge" />
+<img src="https://img.shields.io/badge/Time%20span-2001-2025-D9485F?style=for-the-badge&logo=bookstack&logoColor=white" alt="Time span badge" />
+
+</div>
 
 This repository provides a companion resource on the development of ensemble clustering over the past 25 years.
 For a more comprehensive discussion, please refer to the following survey:
 
 **A Comprehensive Survey of Ensemble Clustering: Taxonomies, Methodologies, Experimental Benchmark, and Challenges**
 
+## At a Glance
+
+<table>
+<tr>
+<td width="33%" valign="top"><strong>Curated benchmark subset</strong><br/>A code-supported subset of <strong>61</strong> representative papers aligned with the benchmark section of the survey.</td>
+<td width="33%" valign="top"><strong>Expanded bibliography</strong><br/>A linked bibliography of <strong>605</strong> papers grouped under the same seven-category taxonomy.</td>
+<td width="33%" valign="top"><strong>Coverage window</strong><br/>The current collection spans publications from <strong>2001</strong> to <strong>2025</strong>, covering both classical and recent work.</td>
+</tr>
+</table>
+
+## Quick Navigation
+
+| Section | What you will find |
+| --- | --- |
+| [Figures](#figures) | Visual overview of historical trend and methodology taxonomy |
+| [Papers with Code](#papers-with-code) | Code-supported benchmark papers with a reserved `Code` column |
+| [Complete Paper List](#complete-paper-list) | Full bibliography organized by the same seven categories |
+
 ## Figures
 
-### Fig. 1
-
-![Fig. 1](assets/fig1_trend.png)
-
-### Fig. 3
-
-![Fig. 3](assets/fig3_taxonomy.png)
+<table>
+<tr>
+<td width="50%" align="center" valign="top">
+<strong>Fig. 1. Development Trend</strong><br/><br/>
+<img src="assets/fig1_trend.png" alt="Fig. 1 trend" width="100%" />
+</td>
+<td width="50%" align="center" valign="top">
+<strong>Fig. 3. Methodology Taxonomy</strong><br/><br/>
+<img src="assets/fig3_taxonomy.png" alt="Fig. 3 taxonomy" width="100%" />
+</td>
+</tr>
+</table>
 
 ## Papers with Code
 
-The following benchmark papers correspond to the code-supported subset currently highlighted in the survey. The `Code` column is reserved for repository links and is temporarily marked as `xxx`.
+> The table below contains the code-supported benchmark subset currently emphasized in the survey. The `Code` field is intentionally reserved for repository links and is temporarily marked as `xxx`.
+
+| Category | Count |
+| --- | ---: |
+| Probabilistic methods | 7 |
+| Graph-based methods | 9 |
+| CA Matrix-based methods | 19 |
+| Scalable ensemble methods | 6 |
+| Ensemble weighting methods | 8 |
+| Representation enhancement methods | 6 |
+| Uncertainty-based methods | 6 |
+
+<details open>
+<summary><strong>Open the code-supported paper table</strong></summary>
 
 | Category | Paper | Authors | Venue | Year | Paper | Code |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -83,11 +131,24 @@ The following benchmark papers correspond to the code-supported subset currently
 | Uncertainty-based methods | Reliability-based fuzzy clustering ensemble | Ali Bagherinia et al | FSS | 2021 | [Paper](https://doi.org/10.1016/j.fss.2020.03.008) | xxx |
 | Uncertainty-based methods | Fuzzy ensemble clustering based on self-coassociation and prototype propagation | Feijiang Li et al | IEEE TFS | 2023 | [Paper](https://doi.org/10.1109/tfuzz.2023.3262256) | xxx |
 
+</details>
+
 ## Complete Paper List
 
-The complete paper list is organized by the seven method categories used in the survey. These entries provide paper links only and do not include code columns.
+> The full bibliography below is organized under the same taxonomy as the survey. Each category is collapsible to keep the project homepage easier to browse.
 
-### Contents
+| Category | Papers | Jump |
+| --- | ---: | --- |
+| Probabilistic methods | 44 | [Open](#probabilistic-methods) |
+| Graph-based methods | 58 | [Open](#graph-based-methods) |
+| CA Matrix-based methods | 137 | [Open](#ca-matrix-based-methods) |
+| Scalable ensemble methods | 45 | [Open](#scalable-ensemble-methods) |
+| Ensemble weighting methods | 179 | [Open](#ensemble-weighting-methods) |
+| Representation enhancement methods | 71 | [Open](#representation-enhancement-methods) |
+| Uncertainty-based methods | 71 | [Open](#uncertainty-based-methods) |
+
+<details>
+<summary><strong>Open category contents</strong></summary>
 
 - [Probabilistic methods](#probabilistic-methods) (44)
 - [Graph-based methods](#graph-based-methods) (58)
@@ -97,7 +158,11 @@ The complete paper list is organized by the seven method categories used in the 
 - [Representation enhancement methods](#representation-enhancement-methods) (71)
 - [Uncertainty-based methods](#uncertainty-based-methods) (71)
 
-### Probabilistic methods
+</details>
+
+<a id="probabilistic-methods"></a>
+<details>
+<summary><strong>Probabilistic methods</strong> <code>44 papers</code></summary>
 
 1. **"Clustering Ensembles Based on Probability Density Function Estimation."** Yingyan Wu et al. 2020 7th IEEE International Conference on Cyber Security and Cloud Computing (CSCloud)/2020 6th IEEE International Conference on Edge Computing and Scalable Cloud (EdgeCom) 2020. [Paper](https://doi.org/10.1109/cscloud-edgecom49738.2020.00029)
 2. **"Fair Clustering Ensemble With Equal Cluster Capacity."** Peng Zhou et al. IEEE Transactions on Pattern Analysis and Machine Intelligence 2024. [Paper](https://doi.org/10.1109/tpami.2024.3507857)
@@ -144,7 +209,11 @@ The complete paper list is organized by the seven method categories used in the 
 43. **"A Mixture Model for Clustering Ensembles."** Alexander Topchy et al. Proceedings of the 2004 SIAM International Conference on Data Mining 2004. [Paper](https://doi.org/10.1137/1.9781611972740.35)
 44. **"Clustering Ensembles: Models of Consensus and Weak Partitions."** A. Topchy et al. IEEE Transactions on Pattern Analysis and Machine Intelligence 2005. [Paper](https://doi.org/10.1109/tpami.2005.237)
 
-### Graph-based methods
+</details>
+
+<a id="graph-based-methods"></a>
+<details>
+<summary><strong>Graph-based methods</strong> <code>58 papers</code></summary>
 
 1. **"Clustering Aggregation."** A. Gionis et al. ACM Transactions on Knowledge Discovery from Data 2007. [Paper](https://doi.org/10.1145/1217299.1217303)
 2. **"HMM-based hybrid meta-clustering ensemble for temporal data."** Yun Yang and Jianmin Jiang. Knowledge-Based Systems 2014. [Paper](https://doi.org/10.1016/j.knosys.2013.12.004)
@@ -205,7 +274,11 @@ The complete paper list is organized by the seven method categories used in the 
 57. **"Enhanced Ensemble Clustering via Fast Propagation of Cluster-Wise Similarities."** Dong Huang et al. IEEE Transactions on Systems, Man, and Cybernetics: Systems 2021. [Paper](https://doi.org/10.1109/tsmc.2018.2876202)
 58. **"Solving Cluster Ensemble Problems by Bipartite Graph Partitioning."** Xiaoli Zhang Fern and Carla E. Brodley. Twenty-first international conference on Machine learning  - ICML '04 2004. [Paper](https://doi.org/10.1145/1015330.1015414)
 
-### CA Matrix-based methods
+</details>
+
+<a id="ca-matrix-based-methods"></a>
+<details>
+<summary><strong>CA Matrix-based methods</strong> <code>137 papers</code></summary>
 
 1. **"Ensemble Methods in the Clustering of String Patterns."** A. Lourenco and A. Fred. 2005 Seventh IEEE Workshops on Applications of Computer Vision (WACV/MOTION'05) - Volume 1 2005. [Paper](https://doi.org/10.1109/acvmot.2005.46)
 2. **"Address block segmentation using ensemble-clustering techniques."** Mustafa Idrissi and Leon J. M. Rothkrantz. Proceedings of the 9th International Conference on Computer Systems and Technologies and Workshop for PhD Students in Computing - CompSysTech '08 2008. [Paper](https://doi.org/10.1145/1500879.1500889)
@@ -345,7 +418,11 @@ The complete paper list is organized by the seven method categories used in the 
 136. **"A hybrid ensemble pruning approach based on consensus clustering and multi-objective evolutionary algorithm for sentiment classification."** Aytu? Onan et al. Information Processing &amp; Management 2017. [Paper](https://doi.org/10.1016/j.ipm.2017.02.008)
 137. **"Combining Multiple Clusterings Using Evidence Accumulation."** Ana L.N. Fred and Anil K. Jain. IEEE Transactions on Pattern Analysis and Machine Intelligence 2005. [Paper](https://doi.org/10.1109/tpami.2005.113)
 
-### Scalable ensemble methods
+</details>
+
+<a id="scalable-ensemble-methods"></a>
+<details>
+<summary><strong>Scalable ensemble methods</strong> <code>45 papers</code></summary>
 
 1. **"Spectral clustering ensemble via compositional data clustering."** Yuanchun Xu and Jianhua Jia. 2011 Eighth International Conference on Fuzzy Systems and Knowledge Discovery (FSKD) 2011. [Paper](https://doi.org/10.1109/fskd.2011.6019693)
 2. **"Ensemble Clustering for Novelty Detection in Data Streams."** Kemilly Dearo Garcia et al. Lecture notes in computer science 2019. [Paper](https://doi.org/10.1007/978-3-030-33778-0_34)
@@ -393,7 +470,11 @@ The complete paper list is organized by the seven method categories used in the 
 44. **"Fast Multi-View Clustering Via Ensembles: Towards Scalability, Superiority, and Simplicity."** Dong Huang；Chang-Dong Wang；Jian-Huang Lai. IEEE Transactions on Knowledge and Data Engineering 2023. [Paper](https://doi.org/10.1109/tkde.2023.3236698)
 45. **"Ultra-Scalable Spectral Clustering and Ensemble Clustering."** Dong Huang et al. IEEE Transactions on Knowledge and Data Engineering 2020. [Paper](https://doi.org/10.1109/tkde.2019.2903410)
 
-### Ensemble weighting methods
+</details>
+
+<a id="ensemble-weighting-methods"></a>
+<details>
+<summary><strong>Ensemble weighting methods</strong> <code>179 papers</code></summary>
 
 1. **"Individual Clustering and Homogeneous Cluster Ensemble Approaches Applied to Gene Expression Data."** Shirlly C. M. Silva et al. Lecture Notes in Computer Science 2005. [Paper](https://doi.org/10.1007/11589990_113)
 2. **"Clustering Ensemble Technique Applied in the Discovery and Diagnosis of Brain Lesions."** Hui Li et al. Sixth International Conference on Intelligent Systems Design and Applications 2006. [Paper](https://doi.org/10.1109/isda.2006.253890)
@@ -575,7 +656,11 @@ The complete paper list is organized by the seven method categories used in the 
 178. **"Clusterer ensemble."** Zhi-Hua Zhou and Wei Tang. Knowledge-Based Systems 2006. [Paper](https://doi.org/10.1016/j.knosys.2005.11.003)
 179. **"Evaluation of Stability of k-Means Cluster Ensembles with Respect to Random Initialization."** L.I. Kuncheva and D.P. Vetrov. IEEE Transactions on Pattern Analysis and Machine Intelligence 2006. [Paper](https://doi.org/10.1109/tpami.2006.226)
 
-### Representation enhancement methods
+</details>
+
+<a id="representation-enhancement-methods"></a>
+<details>
+<summary><strong>Representation enhancement methods</strong> <code>71 papers</code></summary>
 
 1. **"An Ensemble of Competitive Learning Networks with Different Representations for Temporal Data Clustering."** Yun Yang and Ke Chen. The 2006 IEEE International Joint Conference on Neural Network Proceedings 2006. [Paper](https://doi.org/10.1109/ijcnn.2006.1716523)
 2. **"Clustering Ensemble Framework via Ant Colony."** Hamid Parvin and Akram Beigi. Lecture Notes in Computer Science 2011. [Paper](https://doi.org/10.1007/978-3-642-25330-0_14)
@@ -649,7 +734,11 @@ The complete paper list is organized by the seven method categories used in the 
 70. **"Marginalized Multiview Ensemble Clustering."** Zhiqiang Tao et al. IEEE Transactions on Neural Networks and Learning Systems 2020. [Paper](https://doi.org/10.1109/tnnls.2019.2906867)
 71. **"Spectral Clustering Ensemble Applied to SAR Image Segmentation."** Xiangrong Zhang et al. IEEE Transactions on Geoscience and Remote Sensing 2008. [Paper](https://doi.org/10.1109/tgrs.2008.918647)
 
-### Uncertainty-based methods
+</details>
+
+<a id="uncertainty-based-methods"></a>
+<details>
+<summary><strong>Uncertainty-based methods</strong> <code>71 papers</code></summary>
 
 1. **"A Knowledge Discovery Pipeline for Medical Decision Support using Clustering Ensemble and Neural Network Ensemble."** Martin Hahmann et al. IADIS AC 2005. [Paper](https://dblp.org/rec/conf/iadis/KarthigasooCM05)
 2. **"Fuzzy Clustering Ensemble Based on Dual Boosting."** Su-lan Zhai et al. Fourth International Conference on Fuzzy Systems and Knowledge Discovery (FSKD 2007) 2007. [Paper](https://doi.org/10.1109/fskd.2007.316)
@@ -722,3 +811,5 @@ The complete paper list is organized by the seven method categories used in the 
 69. **"A fuzzy clustering ensemble based on cluster clustering and iterative Fusion of base clusters."** Musa Mojarad et al. Applied Intelligence 2019. [Paper](https://doi.org/10.1007/s10489-018-01397-x)
 70. **"Fuzzy ensemble clustering based on random projections for DNA microarray data analysis."** Roberto Avogadri and Giorgio Valentini. Artificial Intelligence in Medicine 2009. [Paper](https://doi.org/10.1016/j.artmed.2008.07.014)
 71. **"Enhancing recommendation stability of collaborative filtering recommender system through bio-inspired clustering ensemble method."** R. Logesh et al. Neural Computing and Applications 2018. [Paper](https://doi.org/10.1007/s00521-018-3891-5)
+
+</details>
