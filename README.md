@@ -4,11 +4,11 @@
 
 <p><strong>An interactive companion resource for tracing the development of ensemble clustering across methods, benchmarks, and linked references.</strong></p>
 
-<img src="https://img.shields.io/badge/Method%20categories-7-0A7EA4?style=for-the-badge&logo=github&logoColor=white" alt="Method categories badge" />
-<img src="https://img.shields.io/badge/Code-supported%20papers-61-0E9F6E?style=for-the-badge&logo=readthedocs&logoColor=white" alt="Code-supported papers badge" />
-<img src="https://img.shields.io/badge/Complete%20paper%20list-605-7C3AED?style=for-the-badge&logo=googlescholar&logoColor=white" alt="Complete paper list badge" />
-<img src="https://img.shields.io/badge/Link%20coverage-605/605-F59E0B?style=for-the-badge&logo=chainlink&logoColor=white" alt="Link coverage badge" />
-<img src="https://img.shields.io/badge/Time%20span-2001-2025-D9485F?style=for-the-badge&logo=bookstack&logoColor=white" alt="Time span badge" />
+<img src="https://img.shields.io/badge/Method%20categories-7-0A7EA4?style=for-the-badge" alt="Method categories badge" />
+<img src="https://img.shields.io/badge/Code-supported%20papers-61-0E9F6E?style=for-the-badge" alt="Code-supported papers badge" />
+<img src="https://img.shields.io/badge/Complete%20paper%20list-605-7C3AED?style=for-the-badge" alt="Complete paper list badge" />
+<img src="https://img.shields.io/badge/Link%20coverage-605%2F605-F59E0B?style=for-the-badge" alt="Link coverage badge" />
+<img src="https://img.shields.io/badge/Time%20span-2001-2025-D9485F?style=for-the-badge" alt="Time span badge" />
 
 </div>
 
@@ -147,7 +147,7 @@ For a more comprehensive discussion, please refer to the following survey:
 | Representation enhancement methods | 71 | [Open](#representation-enhancement-methods) |
 | Uncertainty-based methods | 71 | [Open](#uncertainty-based-methods) |
 
-<details>
+<details open>
 <summary><strong>Open category contents</strong></summary>
 
 - [Probabilistic methods](#probabilistic-methods) (44)
@@ -161,7 +161,7 @@ For a more comprehensive discussion, please refer to the following survey:
 </details>
 
 <a id="probabilistic-methods"></a>
-<details>
+<details open>
 <summary><strong>Probabilistic methods</strong> <code>44 papers</code></summary>
 
 1. **"Clustering Ensembles Based on Probability Density Function Estimation."** Yingyan Wu et al. 2020 7th IEEE International Conference on Cyber Security and Cloud Computing (CSCloud)/2020 6th IEEE International Conference on Edge Computing and Scalable Cloud (EdgeCom) 2020. [Paper](https://doi.org/10.1109/cscloud-edgecom49738.2020.00029)
@@ -212,7 +212,7 @@ For a more comprehensive discussion, please refer to the following survey:
 </details>
 
 <a id="graph-based-methods"></a>
-<details>
+<details open>
 <summary><strong>Graph-based methods</strong> <code>58 papers</code></summary>
 
 1. **"Clustering Aggregation."** A. Gionis et al. ACM Transactions on Knowledge Discovery from Data 2007. [Paper](https://doi.org/10.1145/1217299.1217303)
@@ -277,7 +277,7 @@ For a more comprehensive discussion, please refer to the following survey:
 </details>
 
 <a id="ca-matrix-based-methods"></a>
-<details>
+<details open>
 <summary><strong>CA Matrix-based methods</strong> <code>137 papers</code></summary>
 
 1. **"Ensemble Methods in the Clustering of String Patterns."** A. Lourenco and A. Fred. 2005 Seventh IEEE Workshops on Applications of Computer Vision (WACV/MOTION'05) - Volume 1 2005. [Paper](https://doi.org/10.1109/acvmot.2005.46)
@@ -421,7 +421,7 @@ For a more comprehensive discussion, please refer to the following survey:
 </details>
 
 <a id="scalable-ensemble-methods"></a>
-<details>
+<details open>
 <summary><strong>Scalable ensemble methods</strong> <code>45 papers</code></summary>
 
 1. **"Spectral clustering ensemble via compositional data clustering."** Yuanchun Xu and Jianhua Jia. 2011 Eighth International Conference on Fuzzy Systems and Knowledge Discovery (FSKD) 2011. [Paper](https://doi.org/10.1109/fskd.2011.6019693)
@@ -473,7 +473,7 @@ For a more comprehensive discussion, please refer to the following survey:
 </details>
 
 <a id="ensemble-weighting-methods"></a>
-<details>
+<details open>
 <summary><strong>Ensemble weighting methods</strong> <code>179 papers</code></summary>
 
 1. **"Individual Clustering and Homogeneous Cluster Ensemble Approaches Applied to Gene Expression Data."** Shirlly C. M. Silva et al. Lecture Notes in Computer Science 2005. [Paper](https://doi.org/10.1007/11589990_113)
@@ -659,7 +659,7 @@ For a more comprehensive discussion, please refer to the following survey:
 </details>
 
 <a id="representation-enhancement-methods"></a>
-<details>
+<details open>
 <summary><strong>Representation enhancement methods</strong> <code>71 papers</code></summary>
 
 1. **"An Ensemble of Competitive Learning Networks with Different Representations for Temporal Data Clustering."** Yun Yang and Ke Chen. The 2006 IEEE International Joint Conference on Neural Network Proceedings 2006. [Paper](https://doi.org/10.1109/ijcnn.2006.1716523)
@@ -737,7 +737,7 @@ For a more comprehensive discussion, please refer to the following survey:
 </details>
 
 <a id="uncertainty-based-methods"></a>
-<details>
+<details open>
 <summary><strong>Uncertainty-based methods</strong> <code>71 papers</code></summary>
 
 1. **"A Knowledge Discovery Pipeline for Medical Decision Support using Clustering Ensemble and Neural Network Ensemble."** Martin Hahmann et al. IADIS AC 2005. [Paper](https://dblp.org/rec/conf/iadis/KarthigasooCM05)
