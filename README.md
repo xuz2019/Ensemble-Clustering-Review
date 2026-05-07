@@ -6,7 +6,7 @@
 
 <img src="https://img.shields.io/static/v1?label=Method%20categories&message=7&color=0A7EA4&style=for-the-badge" alt="Method categories badge" />
 <img src="https://img.shields.io/static/v1?label=Benchmark%20papers&message=61&color=0E9F6E&style=for-the-badge" alt="Benchmark papers badge" />
-<img src="https://img.shields.io/static/v1?label=Public%20code%20links&message=30&color=059669&style=for-the-badge" alt="Public code links badge" />
+<img src="https://img.shields.io/static/v1?label=Public%20code%20links&message=31&color=059669&style=for-the-badge" alt="Public code links badge" />
 <img src="https://img.shields.io/static/v1?label=Complete%20paper%20list&message=605&color=7C3AED&style=for-the-badge" alt="Complete paper list badge" />
 <img src="https://img.shields.io/static/v1?label=Link%20coverage&message=605%2F605&color=F59E0B&style=for-the-badge" alt="Link coverage badge" />
 <img src="https://img.shields.io/static/v1?label=Time%20span&message=2001-2025&color=D9485F&style=for-the-badge" alt="Time span badge" />
@@ -28,7 +28,7 @@ For a more comprehensive discussion, please refer to the following survey:
 <table>
 <tr>
 <td width="33%" valign="top"><strong>Curated benchmark subset</strong><br/>A benchmark-oriented subset of <strong>61</strong> representative papers aligned with the experimental section of the survey.</td>
-<td width="33%" valign="top"><strong>Verified code links</strong><br/>Currently <strong>30</strong> papers in the benchmark subset include a public code entry gathered from the curated code-link spreadsheet.</td>
+<td width="33%" valign="top"><strong>Verified code links</strong><br/>Currently <strong>31</strong> papers in the benchmark subset include a public code entry gathered from the curated code-link spreadsheet.</td>
 <td width="33%" valign="top"><strong>Expanded bibliography</strong><br/>A linked bibliography of <strong>605</strong> papers grouped under the same seven-category taxonomy.</td>
 </tr>
 </table>
@@ -105,7 +105,7 @@ For a more comprehensive discussion, please refer to the following survey:
 | 🔗 CA Matrix-based methods | Got: a growing tree model for clustering ensemble | Feijiang Li et al | AAAI | 2021 | [Paper](https://doi.org/10.1609/aaai.v35i9.17015) | [Code](https://github.com/FeijiangLi/Code-GoT-a-growing-tree-model-for-clustering-ensemble-AAAI-21-) |
 | 🔗 CA Matrix-based methods | LCE: a link-based cluster ensemble method for improved gene expression data analysis | Natthakan Iam-On et al | Bioinformatics | 2010 | [Paper](https://doi.org/10.1093/bioinformatics/btq226) | xxx |
 | 🔗 CA Matrix-based methods | Locally weighted ensemble clustering | Dong Huang et al | IEEE TCYB | 2017 | [Paper](https://doi.org/10.1109/tcyb.2017.2702343) | [Code](https://github.com/huangdonghere/LWEA_LWGP) |
-| 🔗 CA Matrix-based methods | Robust spectral ensemble clustering | Zhiqiang Tao et al | ACM CIKM | 2016 | [Paper](https://doi.org/10.1145/2983323.2983745) | xxx |
+| 🔗 CA Matrix-based methods | Robust spectral ensemble clustering | Zhiqiang Tao et al | ACM CIKM | 2016 | [Paper](https://doi.org/10.1145/2983323.2983745) | [Code](https://github.com/Li-Hongmin/Implementation-of-Robust-Spectral-Ensemble-Clustering) |
 | 🔗 CA Matrix-based methods | Similarity and dissimilarity guided co-association matrix construction for ensemble clustering | Xu Zhang et al | IEEE TKDE | 2025 | [Paper](https://doi.org/10.1109/tkde.2025.3608721) | [Code](https://github.com/xuz2019/SDGCA) |
 | 🔗 CA Matrix-based methods | Spectral ensemble clustering via weighted k-means: Theoretical and practical evidence | Hongfu Liu et al | IEEE TKDE | 2017 | [Paper](https://doi.org/10.1109/tkde.2017.2650229) | [Code](https://github.com/Li-Hongmin/Implementation_of_Spectral_Ensemble_Clustering_via_Weighted_K-Means) |
 | 🔗 CA Matrix-based methods | Towards Balance Adaptive Weighted Ensemble Clustering | Runxin Zhang et al | IEEE TCSVT | 2025 | [Paper](https://doi.org/10.1109/tcsvt.2025.3531199) | [Code](https://github.com/zrx11/Towards-Balance-Adaptive-Weighted-Ensemble-Clustering) |
