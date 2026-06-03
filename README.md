@@ -1,6 +1,6 @@
 <div align="center">
 
-# Ensemble Clustering Review Explorer
+# Ensemble Clustering Review
 
 <p><strong>An interactive companion resource for tracing the development of ensemble clustering across methods, benchmarks, and linked references.</strong></p>
 
